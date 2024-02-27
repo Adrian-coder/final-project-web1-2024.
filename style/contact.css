@@ -1,0 +1,132 @@
+
+body {
+    background-color: #333; /* Sau orice culoare de fundal este în designul dvs. */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.contact-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-info {
+    margin-left: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+nav ul {
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+nav ul li a:hover {
+    color: orangered;
+}
+
+nav .order-service {
+    background-color: #e67e22;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav .order-service:hover {
+    background-color: lightcoral;
+    color:while;
+}
+.cos{
+    width:  35px;
+    position: relative;
+    top:13px;
+}
+
+.cos1{
+    position: relative;
+    top:13px;
+    width:  35px;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+.advantages {
+    background-color: #333; 
+    color: white;
+    padding: 20px;
+}
+
+.advantages h2 {
+    border-bottom: 2px solid #e67e22; 
+    display: inline-block;
+    margin-bottom: 10px; 
+}
+
+.advantages ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.advantages li {
+    margin-bottom: 5px; 
+}
+
+
