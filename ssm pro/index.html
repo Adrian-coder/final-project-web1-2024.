@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSM-Pro</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="servicii.html">Servicii</a></li>
+                <li><a href="legislatia.html">Promo</a></li>
+                <li><a href="contact.html">Contacte</a></li>
+                <li><a href="#" class="order-service">Comandă un serviciu</a></li>
+                <li><a href="#"><img class="cos"src="img/cos.png" alt="cos"></a></li>
+                <li><a href="#"><img class="cos1"src="img/log.png" alt="login"></a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Noi avem grijă de Securitatea angajaților voștri</h1>
+            <div class="search">
+                <input type="search" placeholder="Caută un serviciu dorit">
+                <button>Caută</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="services">
+            <h2>Serviciile noastre</h2>
+            <div class="service-items">
+                <div class="service-item">
+                    <img src="img/6.png" alt="Audit SSM">
+                    <h3>Audit SSM</h3>
+                </div>
+                <div class="service-item">
+                    <img class="panou" src="img/3.png" alt="Panouri informative">
+                    <h3>Panouri informative</h3>
+                </div>
+                <div class="service-item">
+                    <img src="img/4.png" alt="Instrucțiuni">
+                    <h3>Instrucțiuni</h3>
+                </div>
+                <div class="service-item">
+                    <img src="img/5.png" alt="Cursuri SSM">
+                    <h3>Cursuri SSM</h3>
+                </div>
+                <div class="service-item">
+                    <img class="" src="img/2.png" alt="Consultații telefonice">
+                    <h3>Consultații telefonice</h3>
+                </div>
+            </div>
+        </section>
+        <section class="faq">
+    <h2>Întrebări frecvente</h2>
+    <div class="faq-item">
+        <button class="faq-question">Oferiți reduceri clienților fideli?</button>
+        <div class="faq-answer">
+            <p>Da, clienții care au apelat la cel puțin 5 servicii în ultimii 2 ani, beneficiază de o reducere de 10% la toate serviciile noastre.</p>
+        </div>
+    </div>
+   <div class="faq-item">
+    <button class="faq-question">Cursurile sunt atestate de Protecția muncii?</button>
+        <div class="faq-answer">
+            <p>Da.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+    <button class="faq-question">Cât timp sunt valabile cursurile dvs?</button>
+        <div class="faq-answer">
+            <p>3 ani.</p>
+        </div>
+    </div>
+</section>
+<section class="testimonials">
+    <h2>Ce spun clienții despre noi</h2>
+    <div class="testimonial-container">
+        <div class="testimonial-nav prev"><span><</span></div>
+        <div class="testimonial-content">
+            <p>O companie de nota 10, cu muncitori calificați, am primit o mare plăcere de la cursurile ssm.</p>
+            <p class="author">- Doina C.</p>
+        </div>
+        <div class="testimonial-nav next"><span>></span></div>
+    </div>
+</section>     
+    </main>
+
+<footer>
+<div class="footer">
+<div class="row">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-youtube"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</div>
+<div class="row">
+<ul>
+<li><a href="#">Informație</a></li>
+<li><a href="#">Servicii</a></li>
+<li><a href="#">Panouri informative</a></li>
+<li><a href="#">Legislația</a></li>
+<li><a href="#">Contacte</a></li>
+</ul>
+</div>
+<div class="row">
+ © 2024 SSM-PRO
+</div>
+</div>
+</footer>
+</body>
+</html>
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+    // Selectăm toate întrebările
+    var faqQuestions = document.querySelectorAll('.faq-question');
+
+    // Adăugăm un event listener pentru fiecare întrebare
+    faqQuestions.forEach(function(question) {
+        question.addEventListener('click', function() {
+            // Acesta va comuta răspunsul asociat
+            var answer = this.nextElementSibling;
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+}); 
+
+
+</script>
+
+</body>
+</html>

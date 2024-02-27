@@ -1,0 +1,332 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: black;
+
+
+}
+
+nav ul {
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+nav ul li a:hover {
+    color: orangered;
+}
+
+nav .order-service {
+    background-color: #e67e22;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav .order-service:hover {
+    background-color: lightcoral;
+    color:while;
+}
+
+.hero {
+    background: url('1.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.search input[type="search"] {
+    padding: 10px;
+    width: 240px;
+    border: none;
+}
+
+.search button {
+    padding: 10px;
+    border: none;
+    background-color: #e67e22;
+    color: white;
+    cursor: pointer;
+}
+
+.services {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.service-item:hover {
+    background-color: orangered;
+}
+.service-item {
+    background-color: #ff8c00;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative; 
+    text-align: center; 
+}
+
+.service-item img {
+    max-width: 80px; 
+    margin-top: 10px;
+    z-index: 2; 
+}
+
+.service-item h3 {
+    position: absolute; 
+    bottom: -60px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 200%; 
+    z-index: 1; 
+    color: white; 
+    font-weight: bold;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header .hero h1 {
+    margin-bottom: 20px;
+}
+
+header .search-box {
+    margin-bottom: 50px;
+}
+
+header .search-box input,
+header .search-box button {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.services {
+    background-color: #222;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 30px;
+}
+
+.services .service-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.services .service-item {
+    background-color: #ff8c00;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services .service-item img {
+    max-width: 80px;
+    margin-bottom: 10px;
+    margin-top:     25px;
+}
+
+.services .service-item p {
+    color: white;
+    font-weight: bold;
+}
+.cos{
+    width:  35px;
+    position: relative;
+    top:13px;
+}
+
+.cos1{
+    position: relative;
+    top:13px;
+    width:  35px;
+    
+}
+
+.faq {
+    background-color: #222; 
+    color: white;
+    padding: 20px;
+    text-align: left; 
+}
+
+.faq h2 {
+    margin-bottom: 15px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    background-color: #e67e22; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.faq-question:hover {
+    background-color: #cf6d17; 
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+}
+
+.faq-answer p {
+    margin-top: 10px; 
+}
+h2{
+    text-align: center;
+}
+.panou{
+    position: relative;
+    margin-bottom: 25px;
+    width: 300px;
+}
+/* Stiluri pentru secțiunea de testimoniale */
+.testimonials {
+    background-color: #333333; /* sau orice culoare potrivită */
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-nav {
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none; /* Previne selectarea textului săgeții */
+}
+
+.testimonial-content p {
+    margin: 0 20px;
+}
+
+.testimonial-content .author {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.footer{
+font-size: 25px;
+background:#000;
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:gray;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:gray;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+.row{
+    font-size: 25px;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
