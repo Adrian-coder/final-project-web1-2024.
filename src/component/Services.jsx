@@ -5,7 +5,7 @@ import i4 from './img/i4.png';
 import i5 from './img/i5.png';
 import i6 from './img/i6.png';
 import './style/styles.css';
-
+import { Link } from 'react-router-dom';
 function Services(){
     return(
 <div>

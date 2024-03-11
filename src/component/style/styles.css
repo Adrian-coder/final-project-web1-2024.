@@ -32,6 +32,7 @@ nav ul li a {
 }
 nav ul li a:hover {
     color: aliceblue;
+    border-bottom: 1px solid white;
 }
 
 nav .order-service {
@@ -60,9 +61,6 @@ nav.order-service:active {
     top:13px;
     width:  35px;
     
-}
-.cos:hover{
-    width: 39px;
 }
 .hero {
     background-color: #333;
@@ -199,3 +197,139 @@ header .search-box button {
     color: white;
     font-weight: bold;
 }
+.faq {
+    background-color: #222; 
+    color: white;
+    padding: 20px;
+    text-align: left; 
+}
+
+.faq h2 {
+    margin-bottom: 15px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    background-color: #e67e22; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.faq-question:hover {
+    background-color: #cf6d17; 
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+}
+
+.faq-answer p {
+    margin-top: 10px; 
+}
+h2{
+    text-align: center;
+}
+.panou{
+    position: relative;
+    margin-bottom: 25px;
+    width: 300px;
+}
+/* Stiluri pentru secțiunea de testimoniale */
+.testimonials {
+    background-color: #333333; /* sau orice culoare potrivită */
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-nav {
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none; 
+}
+
+.testimonial-content p {
+    margin: 0 20px;
+}
+
+.testimonial-content .author {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.footer{
+    font-size: 25px;
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    .row{
+        font-size: 25px;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
