@@ -1,0 +1,333 @@
+
+body {
+    background-color: #333; /* Sau orice culoare de fundal este în designul dvs. */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.contact-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-info {
+    margin-left: 20px;
+    position: relative;
+    top:500px;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+nav ul {
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+nav ul li a:hover {
+    color: orangered;
+}
+
+nav .order-service {
+    background-color: #e67e22;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav .order-service:hover {
+    background-color: #ec9447;;
+    color:while;
+}
+.cos{
+    width:  35px;
+    position: relative;
+    top:13px;
+    cursor: pointer !important;
+}
+.cos1:hover{
+    border-bottom: while;
+}
+
+.cos1{
+    position: relative;
+    top:13px;
+    width:  35px;
+    cursor: pointer !important;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+.advantages {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.advantages h2 {
+    border-bottom: 2px solid #e67e22;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.advantages ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.advantages li {
+    margin-bottom: 10px; 
+    padding-left: 30px; 
+    position: relative;
+    text-align: left; 
+}
+
+.advantages li::before {
+    content: '';
+    width: 15px; 
+    height: 15px; 
+    background-color: #e67e22;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%) translateX(-10px); 
+}
+
+.services {
+    text-align: center;
+    background-color: #333; /* Alegeți culoarea potrivită */
+    color: #fff;
+    padding: 20px;
+}
+
+.services h1 {
+    margin-bottom: 30px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: #444; /* Alegeți culoarea potrivită */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px; /* sau alte dimensiuni conform designului */
+}
+
+.service-card h3 {
+    color: #f90; 
+}
+
+.service-card p {
+    font-size: 24px; 
+}
+
+.service-card ul {
+    text-align: left;
+    padding: 0;
+}
+
+.service-card ul li {
+    list-style: none; 
+}
+
+.service-card button {
+    background-color: #f90; 
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Info Section */
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.more-info button {
+  background-color: #ffa500;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.questions-section {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%; 
+}
+
+.questions-section span {
+  display: block; 
+  margin-bottom: 10px;
+}
+
+.questions-section .contact-button {
+  background-color: #ffa500;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #333;
+  padding: 10px;
+}
+.grid-item1 {
+  background-color: #333;
+  border: 1px solid red;
+  padding: 20px;
+  font-size: 30px;
+  color:white;
+  text-align: center;
+}
+.grid-item{
+  background-color: #333;
+  border: 1px solid orangered;
+  padding: 20px;
+  font-size: 20px;
+  color:white;
+  text-align: center;
+}
+.grid-item1:hover{
+    background: #494949;
+}
+.grid-item:hover{
+    background: #494949;
+}
+.footer{
+font-size: 25px;
+background:#000;
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:gray;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:gray;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+.row{
+    font-size: 25px;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
